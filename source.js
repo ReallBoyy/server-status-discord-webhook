@@ -1,7 +1,7 @@
 const { exec } = require("child_process");
 const { WebhookClient, EmbedBuilder } = require("discord.js");
 const fs = require('fs');
-const config = require('config.json');
+const config = require("./config.json");
 const WEBHOOK_URL = config.webhook_url;
 
 const filter = WEBHOOK_URL.split('/');
