@@ -47,7 +47,7 @@ const online = fs.readFileSync(config.online_file_path, 'utf-8');
 
 async function monitorProcess() {
   try {
-    const isRunning = await checkProcess("SERVER.exe");
+    const isRunning = await checkProcess(config.enet_server_name);
     await updateDiscordStatus(isRunning);
   } catch (error) {
     console.error("Error checking process:", error);
