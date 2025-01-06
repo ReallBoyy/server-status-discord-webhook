@@ -1,0 +1,5 @@
+{
+  "webhook_url": "YOUR_WEBHOOK_URL",
+  "online_file_path": "online.txt",
+  "enet_server_name": "SERVER.exe"
+}
