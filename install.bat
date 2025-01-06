@@ -1,0 +1,1 @@
+npm install discord.js child_process fs
